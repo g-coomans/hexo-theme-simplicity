@@ -1,0 +1,17 @@
+menu:
+  - name: Home
+    link: /
+    icon: home-outline
+  - name: Archives
+    link: /archives
+    icon: archive
+  - name: Github
+    link: https://github.com/*USER*
+    icon: github
+  - name: Linkedin
+    link: https://www.linkedin.com/in/*PROFILE-NAME* 
+    icon: linkedin
+  - name: Email
+    link: doe@jo.hn
+    icon: email-outline
+

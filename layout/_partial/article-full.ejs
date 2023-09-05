@@ -1,0 +1,25 @@
+<div class="blog-post">
+
+  <div class="blog-header">
+    <!-- Title -->
+    <h2 class="blog-post-title">
+      <a href="<%- config.root %><%- item.path %>">
+        <%- item.title || item.link%>
+      </a>
+    </h2>
+
+    <!-- Date and Author -->
+    <p class="blog-post-meta">
+        <%= item.date.format(config.date_format) %>
+        <% if(item.author) { %>
+            by <%- item.author %>
+        <% } %>
+    </p>
+  </div>
+
+    <!-- Content -->
+    <%- item.content %>
+
+    <!-- Tags and Categories links -->
+
+</div>

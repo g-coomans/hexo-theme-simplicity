@@ -1,0 +1,10 @@
+<header>
+  <a href="/"><h1 class="blog-title"><%= config.title %></h1></a>
+
+  <div>
+    <% theme.menu.forEach(function(item) { %>
+      <a href="<%=item.link %>"><i data-eva="<%= item.icon %>"><%= item.name %></i></a>
+    <% }) %>
+
+  </div>
+</header>

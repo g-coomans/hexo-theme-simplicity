@@ -1,0 +1,19 @@
+{
+  "name": "hexo-theme-simplicity",
+  "version": "1.0.0",
+  "description": "A simple Hexo theme (without external script)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g-coomans/hexo-theme-simplicity"
+  },
+  "keywords": [
+    "hexo",
+    "theme"
+  ],
+  "author": "Geoffrey Coomans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g-coomans/hexo-theme-simplicity/issues"
+  },
+  "homepage": "https://github.com/g-coomans/hexo-theme-simplicity#readme"
+}
