@@ -1,5 +1,5 @@
-<% site.posts.sort('date',-1).each(function(item){ %>
-    <%- partial('_partial/article-excerpt', {item: item, index:true}) %>
+<% page.posts.each(function(item) { %>
+    <%- partial('_partial/article-excerpt', {item: item}) %>
 <% }); %>
 
 <%- partial('_partial/pagination') %>

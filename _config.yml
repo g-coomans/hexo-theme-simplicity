@@ -1,17 +1,21 @@
 menu:
   - name: Home
     link: /
-    icon: home-outline
-  - name: Archives
+    icon: home
+  - name: Archive
     link: /archives
     icon: archive
+  - name: Tags
+    link: /tags
+    icon: folder
   - name: Github
     link: https://github.com/*USER*
     icon: github
   - name: Linkedin
-    link: https://www.linkedin.com/in/*PROFILE-NAME* 
+    link: https://www.linkedin.com/in/*PROFILE-NAME*
     icon: linkedin
   - name: Email
     link: doe@jo.hn
     icon: email-outline
 
+tags_title: Tags Summary

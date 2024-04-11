@@ -4,10 +4,11 @@
 - It's black & white. CSS come from [Bolt CSS](https://boltcss.com/)
 - Icons from [Eva Icons](https://github.com/akveo/eva-icons)
 - No outsource script (Google Analytics, Disqus, whatever). I will never implement it. KISS
-- No tag & no categories. Maybe once will be implemented
-- No pages; it's a blog theme
+- Tags supported. Summary page with all the tags and their posts (/tags)
+- No categories (not yet and maybe ever)
+- No pages (not yet and maybe ever)
 - No gallery image.
-- No search module
+- No search module.
 
 ## Installation
 Install the theme by using :
@@ -39,16 +40,20 @@ Example:
 menu:
   - name: Home
     link: /
-    icon: home-outline
+    icon: home
+  - name: Tags
+    link: /tags
+    icon: folder
   - name: Archives
     link: /archives
-    icon: archive-outline
+    icon: archive
   - name: Github
     link: https://github.com/*user_repos*
     icon: github
   - name: Linkedin
     link: https://www.linkedin.com/in/*user_profile*
     icon: linkedin
+tags_title: Tags summary
 ```
 
 # Creator
